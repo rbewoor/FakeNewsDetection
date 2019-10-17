@@ -1,1 +1,1 @@
-# CaseStudySRHFakeNews
+# FakeNewsDetection
