@@ -23,9 +23,10 @@ Morphological          50
 Psychological          93
 Twitter                22
 Readability            18
--------------         -----
 Total                  183
+
 ################################################################################################
+
 CODE files are uploaded:
 
 1) scriptExtractTweets1.py
