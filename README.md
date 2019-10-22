@@ -10,12 +10,20 @@ Morphological, Psychological (aka Linguistic), Twitter and Readability.
 
 ################################################################################################
 DATA files uploaded in the data folder:
-1) All_Features_No_Norm.csv -- contains all features
-2) M_Features_No_Norm.csv   -- contains only the Morphological features
-3) L_Features_No_Norm.csv   -- contains only the Psychological features
-4) T_Features_No_Norm.csv   -- contains only the Twitter features
-5) R_Features_No_Norm.csv   -- contains only the Readability features
-6) MLR_Features_No_Norm.csv -- contains all features EXCEPT Twitter features
+1) Files with only regular features and NO normalized values.
+1a) All_Features_No_Norm.csv -- contains all features
+1b) M_Features_No_Norm.csv   -- contains only the Morphological features
+1c) L_Features_No_Norm.csv   -- contains only the Psychological features
+1d) T_Features_No_Norm.csv   -- contains only the Twitter features
+1e) R_Features_No_Norm.csv   -- contains only the Readability features
+1f) MLR_Features_No_Norm.csv -- contains all features EXCEPT Twitter features
+2) Files with ONLY normalized values.
+1a) All_Features_Norm.csv    -- contains all features
+1b) M_Features_Norm.csv      -- contains only the Morphological features
+1c) L_Features_Norm.csv      -- contains only the Psychological features
+1d) T_Features_Norm.csv      -- contains only the Twitter features
+1e) R_Features_Norm.csv      -- contains only the Readability features
+1f) MLR_Features_Norm.csv    -- contains all features EXCEPT Twitter features
 
 Note that each of the data files have the Domain, URL and UrlType at the beginning followed by the actual feature data. The number of features for each group are:
 1) Feature Group  --   Number of Features (non-Normalised)
