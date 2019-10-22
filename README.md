@@ -10,6 +10,7 @@ Morphological, Psychological (aka Linguistic), Twitter and Readability.
 
 ################################################################################################
 DATA files uploaded in the data folder:
+
 1) Files with only regular features and NO normalized values.
 1a) All_Features_No_Norm.csv -- contains all features
 1b) M_Features_No_Norm.csv   -- contains only the Morphological features
@@ -17,6 +18,7 @@ DATA files uploaded in the data folder:
 1d) T_Features_No_Norm.csv   -- contains only the Twitter features
 1e) R_Features_No_Norm.csv   -- contains only the Readability features
 1f) MLR_Features_No_Norm.csv -- contains all features EXCEPT Twitter features
+
 2) Files with ONLY normalized values.
 1a) All_Features_Norm.csv    -- contains all features
 1b) M_Features_Norm.csv      -- contains only the Morphological features
