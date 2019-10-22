@@ -17,13 +17,13 @@ DATA files uploaded in the data folder:
 5) R_Features_No_Norm.csv   -- contains only the Readability features
 6) MLR_Features_No_Norm.csv -- contains all features EXCEPT Twitter features
 
-Notes: All the data files have the Domain, URL and UrlType. Then the actual feature data starts:
-Feature Group  --   Number of Features (non-Normalised)
-Morphological  --   50
-Psychological  --   93
-Twitter        --   22
-Readability    --   18
-Total          --   183
+Note that each of the data files have the Domain, URL and UrlType at the beginning followed by the actual feature data. The number of features for each group are:
+1) Feature Group  --   Number of Features (non-Normalised)
+2) Morphological  --   50
+3) Psychological  --   93
+4) Twitter        --   22
+5) Readability    --   18
+6) Total          --   183
 
 ################################################################################################
 
