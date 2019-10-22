@@ -43,6 +43,11 @@ Broadly, the logic is to extract tweets. Then using this newly created tweets fi
 3c) Thus there will be 12 files: All_Features_WITH_norm.csv , All_Features_NO_norm.csv , M_Features_WITH_norm.csv , M_Features_NO_norm.csv , L_Features_WITH_norm.csv , L_Features_NO_norm.csv , T_Features_WITH_norm.csv , T_Features_NO_norm.csv , R_Features_WITH_norm.csv , R_Features_NO_norm.csv , MLR_Features_WITH_norm.csv , MLR_Features_NO_norm.csv.
 
 4) modelTrainingAndCheckAccuracy_without_FeatureSelection.ipynb
+Logic:
+4a) Train:Test subsets created 80:20 ratio. Then all the features in the input file are used to train models for Decision Tree (Gini and Entropy), KNN, Logistic Regression, Random Forest, SVM and XG-Boost.
 
-5) 4) modelTrainingAndCheckAccuracy_with_FeatureSelection.ipynb
+5) modelTrainingAndCheckAccuracy_with_FeatureSelection.ipynb
+5a) Feature Selection is done using scikit-learn's FeatureSelection method with estimator as Random Forest. The default settings are used. All the input data is used for this step.
+5b) Now, only the important features are retained and split into Train:Test subsets with 80:20 ratio.
+5c) These split subsets used to train each model as before.
 
