@@ -5,7 +5,7 @@ b) where the title and content of the URL is available.
 
 We did not crawl websites to extract HTML. Instead we used this Github repo (github.com/several27/FakeNewsCorpus). It already had the Title and Content for various URLs and these URLs were tagged as being Fake or Reliable (among other tags). There were around 2.0 million "Reliable" and 0.9 million "Fake" URLs. We selected approx. 5,500 data points from these two categories to create a dataset of approx. 11,000 URLs for which feature extraction was done.
 
-Features belong to 4 main groups:
+Features belong to 4 groups:
 Morphological, Psychological, Twitter and Readability.
 
 ################################################################################################
@@ -37,7 +37,7 @@ Note that each of the data files have the Domain, URL and UrlType at the beginni
 
 ################################################################################################
 
-CODE files are uploaded:
+CODE files uploaded:
 
 1) scriptExtractTweets1.py
 Takes an input file for the URLs and extracts all tweets. Uses command line parameters.
