@@ -3,6 +3,8 @@ Project is to create a Fake news classifier by providing it URLs for which:
 a) there is at least one tweet, and
 b) where the title and content of the URL is available.
 
+We have built on certain aspects of this paper: Castelo, S., Almeida, T., Elghafari, A., Santos, A., Pham, K., Nakamura, E., & Freire, J. (2019). A Topic-Agnostic Approach for Identifying Fake News Pages. San Francisco, CA, USA: International World Wide Web Conference Committee.
+
 We did not crawl websites to extract HTML. Instead we used this Github repo (github.com/several27/FakeNewsCorpus). It already had the Title and Content for various URLs and these URLs were tagged as being Fake or Reliable (among other tags). There were around 2.0 million "Reliable" and 0.9 million "Fake" URLs. We selected approx. 5,500 data points from these two categories to create a dataset of approx. 11,000 URLs for which feature extraction was done.
 
 Features belong to 4 groups:
